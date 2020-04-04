@@ -27,7 +27,7 @@ export default function Index() {
 
   return (
     <Container maxWidth='sm' pt={5}>
-      <Box py>
+      <Box py={2}>
         <Grid container spacing={1}>
           <Grid item xs={12}>
             <Typography variant='h5' component='h1'>

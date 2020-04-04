@@ -4,17 +4,24 @@ Starter kit for [Next.js](https://nextjs.org/) SSG app with [Material-UI](https:
 
 ## How to use
 
-Download the starter [or clone the repo](https://github.com/mui-org/material-ui)
+[Download the starter](https://github.com/ZachScroggins/nextjs-ssg-material-ui-starter/archive/master.zip) or clone the repo
 
 ```sh
-curl https://codeload.github.com/mui-org/material-ui/tar.gz/master | tar -xz --strip=2  material-ui-master/examples/nextjs
-cd nextjs
+git clone https://github.com/ZachScroggins/nextjs-ssg-material-ui-starter.git
+
+cd nextjs-ssg-material-ui-starter
 ```
 
 Install dependencies
 
 ```sh
 npm install
+```
+
+Run dev server
+
+```sh
+npm run dev
 ```
 
 ### Configuration
@@ -47,13 +54,19 @@ npm install
    npm install -g firebase-tools
    ```
 
-2. Login to Firebase with CLI
+2. Build and export app
+
+   ```sh
+   npm run export
+   ```
+
+3. Login to Firebase with CLI
 
    ```sh
    firebase login
    ```
 
-3. Configure Hosting with CLI
+4. Configure Hosting with CLI
 
    ```sh
    firebase init
@@ -61,7 +74,7 @@ npm install
 
    Specify "out" as your public root directory
 
-4. Deploy with CLI
+5. Deploy with CLI
    ```sh
    firebase deploy
    ```
