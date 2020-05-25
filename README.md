@@ -4,6 +4,8 @@ Starter kit for [Next.js](https://nextjs.org/) SSG app with [Material-UI](https:
 
 ## How to use
 
+[Use this template](https://github.com/ZachScroggins/nextjs-ssg-material-ui-starter/generate) or
+
 [Download the starter](https://github.com/ZachScroggins/nextjs-ssg-material-ui-starter/archive/master.zip) or clone the repo
 
 ```sh
